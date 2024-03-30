@@ -1,0 +1,108 @@
+.available-ingredients1 {
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+  width: 158px;
+  height: 19px;
+  flex-shrink: 0;
+}
+.available-ingredients-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.property-1default1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container {
+  border-radius: var(--br-2xs);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 547px;
+  height: 259px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.property-1variant21 {
+  position: absolute;
+  top: 316px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-item {
+  border-radius: var(--br-2xs);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 547px;
+  height: 259px;
+}
+.property-1variant31 {
+  position: absolute;
+  top: 612px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.assorted-vegetables-such {
+  margin-bottom: 0px;
+}
+.assorted-vegetables-such-as-c {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-xl);
+}
+.assorted-vegetables-such-container {
+  position: relative;
+  font-weight: 200;
+  display: inline-block;
+  width: 540px;
+  height: 241px;
+  flex-shrink: 0;
+}
+.property-1variant41 {
+  position: absolute;
+  top: 908px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.property-1default-group {
+  position: absolute;
+  top: 12px;
+  left: 38px;
+  border-radius: var(--br-8xs);
+  border: 1px dashed var(--color-blueviolet);
+  box-sizing: border-box;
+  width: 585px;
+  height: 1204px;
+  overflow: hidden;
+}
+.component-set-root {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 1386px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

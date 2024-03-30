@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Suggestion</title>
+  <script src="https://cdn.jsdelivr.net/npm/nlp_compromise@0.6.1/dist/nlp_compromise.min.js"></script>
+</head>
+<body>
+
+<input type="text" id="medicalConditionsInput" placeholder="Enter Medical Conditions">
+<button id="submitBtn">Submit</button>
+
+<script>
+  function suggestRecipe() {
+    const medicalConditions = document.getElementById("medicalConditionsInput").value.toLowerCase();
+
+    const analysis = nlp(medicalConditions);
+    const entities = analysis.entities().data();
+
+    const medicalConditionRecipes = {
+        "diabetes": "Low-carb diabetic-friendly recipe",
+        "hypertension": "Low-sodium heart-healthy recipe",
+        "high cholesterol": "Heart-healthy recipe with healthy fats",
+        "celiac disease": "Gluten-free recipe",
+        "kidney disease": "Low-protein kidney-friendly recipe",
+        "lactose intolerance": "Lactose-free recipe",
+        "irritable bowel syndrome": "FODMAP-friendly recipe",
+        "anemia": "Iron-rich recipe with leafy greens and lean meats",
+        "osteoporosis": "Calcium-rich recipe with dairy products or fortified foods",
+        "acid reflux": "Low-acid recipe with non-citrus fruits and lean proteins",
+        "asthma": "Anti-inflammatory recipe with omega-3 fatty acids and fruits high in vitamin C",
+        "obesity": "Low-calorie, high-fiber recipe with lean proteins and vegetables",
+        "arthritis": "Anti-inflammatory recipe with omega-3 fatty acids and colorful vegetables",
+        "depression": "Mood-boosting recipe with whole grains and foods rich in omega-3 fatty acids",
+        "anxiety": "Calming recipe with magnesium-rich foods and herbal teas"
+    };
+
+    let suggestedRecipe;
+    for (const entity of entities) {
+        const text = entity.text.toLowerCase();
+        if (medicalConditionRecipes[text]) {
+            suggestedRecipe = medicalConditionRecipes[text];
+            break;
+        }
+    }
+
+    if (!suggestedRecipe) {
+        suggestedRecipe = "General healthy recipe";
+    }
+
+    return suggestedRecipe;
+
+
+
+    alert("Suggested Recipe: " + suggestedRecipe);
+  }
+
+  document.getElementById("submitBtn").addEventListener("click", suggestRecipe);
+</script>
+
+</body>
+</html>

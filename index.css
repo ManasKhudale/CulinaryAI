@@ -1,0 +1,132 @@
+.any-medical-conditons {
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+  width: 186px;
+  height: 19px;
+  flex-shrink: 0;
+}
+.enter-text {
+  position: relative;
+  font-weight: 200;
+  display: inline-block;
+  width: 540px;
+  height: 241px;
+  flex-shrink: 0;
+}
+.enter-text-wrapper {
+  border-radius: var(--br-2xs);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 547px;
+  height: 259px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.any-medical-conditons-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.property-1default {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.any-medical-conditions {
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+  width: 284px;
+  height: 19px;
+  flex-shrink: 0;
+}
+.property-1variant2 {
+  position: absolute;
+  top: 316px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.any-medical-conditions1 {
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+  width: 249px;
+  height: 19px;
+  flex-shrink: 0;
+}
+.frame-child {
+  border-radius: var(--br-2xs);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 547px;
+  height: 259px;
+}
+.property-1variant3 {
+  position: absolute;
+  top: 612px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.any-medical-conditions2 {
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+  width: 209px;
+  height: 19px;
+  flex-shrink: 0;
+}
+.type-2-diabetes {
+  margin-bottom: 0px;
+}
+.type-2-diabetes-obesity-heart {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-xl);
+}
+.property-1variant4 {
+  position: absolute;
+  top: 908px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.property-1default-parent {
+  position: absolute;
+  top: 12px;
+  left: 38px;
+  border-radius: var(--br-8xs);
+  border: 1px dashed var(--color-blueviolet);
+  box-sizing: border-box;
+  width: 585px;
+  height: 1204px;
+  overflow: hidden;
+}
+.component-set-parent {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 1410px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
